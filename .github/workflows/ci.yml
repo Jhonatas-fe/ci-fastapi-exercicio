@@ -29,5 +29,5 @@ jobs:
         run: |
           fastapi run main.py --port 8000 &
           sleep 3
-          curl -f http://localhost:8000/
-          curl -f http://localhost:8000/somar/10/20
+          curl -f http://localhost:8000/; echo
+          curl -f http://localhost:8000/somar/10/20; echo
